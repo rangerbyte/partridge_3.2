@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#14532d"/>
+
+  <g id="perdiz" transform="translate(256 256) scale(0.9) translate(-246 -262)">
+
+    <!-- cuerpo -->
+    <path d="M402 150
+             C 404 100, 350 76, 310 106
+             C 286 126, 288 172, 292 206
+             C 248 200, 176 212, 132 258
+             C 104 290, 92 326, 102 350
+             L 76 420
+             L 138 394
+             C 164 430, 226 448, 292 430
+             C 348 412, 386 366, 386 316
+             C 386 268, 390 206, 398 178
+             Z" fill="#e7d9bb"/>
+
+    <!-- píleo, nuca y dorso pardos -->
+    <path d="M402 150
+             C 404 100, 350 76, 310 106
+             C 286 126, 288 172, 292 206
+             C 248 200, 176 212, 132 258
+             C 188 240, 250 232, 302 240
+             C 316 204, 340 172, 402 150 Z" fill="#8d7c5f"/>
+
+    <!-- ala plegada -->
+    <path d="M300 246
+             C 238 258, 188 294, 166 338
+             C 202 358, 262 364, 312 348
+             C 332 316, 326 278, 300 246 Z" fill="#ab8a5a"/>
+    <path d="M300 246 C 238 258, 188 294, 166 338" stroke="#6f5f45" stroke-width="7"
+          fill="none" stroke-linecap="round"/>
+
+    <!-- garganta blanca, abierta hacia el pecho -->
+    <path d="M394 186
+             C 366 188, 344 202, 336 226
+             C 330 250, 340 276, 356 290
+             C 368 298, 380 300, 388 296
+             C 386 252, 388 214, 394 186 Z" fill="#fbf7ee"/>
+    <!-- collar negro: sólo ciñe la garganta por delante y por debajo -->
+    <path d="M394 184 C 364 186, 340 202, 332 228
+             C 326 252, 336 278, 354 292" stroke="#241d14" stroke-width="14"
+          fill="none" stroke-linecap="round"/>
+    <!-- el collar se deshace en motas sobre el pecho -->
+    <g fill="#241d14">
+      <circle cx="332" cy="308" r="9"/><circle cx="306" cy="322" r="8"/>
+      <circle cx="360" cy="316" r="7"/>
+    </g>
+
+    <!-- barrado castaño del flanco -->
+    <g stroke="#a8442a" stroke-width="15" stroke-linecap="round">
+      <path d="M200 356 L 212 392"/>
+      <path d="M246 366 L 256 400"/>
+      <path d="M292 368 L 300 400"/>
+    </g>
+
+    <!-- pico corto y grueso -->
+    <path d="M400 148 C 426 150, 442 158, 444 168
+             C 442 178, 424 186, 398 186 Z" fill="#c0392b"/>
+    <!-- ojo con anillo orbital rojo -->
+    <circle cx="358" cy="140" r="17" fill="#c0392b"/>
+    <circle cx="358" cy="140" r="10" fill="#241d14"/>
+
+    <!-- patas cortas -->
+    <g stroke="#c0392b" stroke-width="18" stroke-linecap="round" fill="none">
+      <path d="M222 438 L 218 468 M 194 478 L 244 478"/>
+      <path d="M296 434 L 292 466 M 268 476 L 318 476"/>
+    </g>
+  </g>
+</svg>
